@@ -45,6 +45,7 @@
     <button type="button" on:click={() => search()}>Search</button>
     <p id="response">{blockState}</p>
 </div>
+<footer>If you don't want this page to look garbage contribute to it on <a href="https://github.com/supercoolspy/BlockStateAnalyzer-Web">github</a></footer>
 <style>
     #error {
         color: red;
